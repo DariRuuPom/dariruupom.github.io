@@ -1,0 +1,129 @@
+@font-face{
+	font-family: 'bahnschrift';
+	src: url('bahnschrift.ttf') format('truetype');
+}
+
+body {
+	font-family: 'bahnschrift';
+	background: url('images/bg_regular.png') 0 0 purple;
+	margin:0px;
+	padding:0px;
+	color: #F8F8F8;
+
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	transition: text-shadow .3s;
+}
+
+li {
+	margin: 0;
+	padding: 5px 0 5px 55px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+}
+
+.content{
+	position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5% 25% 5% 25%;
+  min-width: 50%;
+  min-height: 60%;
+  align-items: center;
+}
+  .content::before {
+	  content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.7);
+	border-radius: 15px;
+  }
+
+
+.icon{
+	position: relative;
+	display: inherit;
+	padding: 10px 10px 10px 10px;
+	margin-right: auto;
+	margin-left: 3%;
+	width: 35%;
+	flex-direction: column;
+	flex-grow: 0;
+	align-self: left;
+}
+
+.links{
+	margin-right: 10%;
+
+}
+
+.linkList {
+	position: relative;
+	display: inherit;
+	list-style: none;
+	padding: 20px 40px 0px 40px;
+	min-width: 50%
+	flex-grow: 0;
+}
+
+.bio{
+	position: relative;
+	display: inherit;
+	flex-direction: column;
+	width: 100%;
+	flex-grow: 0;
+	margin: 0px 10px 0px 10px;
+	font-size: 18px;
+}
+
+.hLink {
+	font-size: 3em;
+	margin: 0 0 0 0;
+}
+
+#twitch {
+	background-image: url("images/twitch.png");
+	background-size: 50px auto;
+	flex: 1;
+	flex-basis: 0;
+	flex-grow: 0;
+}
+
+#youTube {
+	background-image: url("images/you.png");
+	background-size: 50px auto;
+	flex-grow: 0;
+}
+
+#instagram {
+	background-image: url("images/gram.png");
+	background-size: 50px auto;
+	flex-grow: 0;
+}
+
+#discord {
+	background-image: url("images/discord.png");
+	background-size: 50px auto;
+	flex-grow: 0;
+}
+
+#twitter {
+	background-image: url("images/twit.png");
+	background-size: 50px auto;
+	flex-grow: 0;
+}
+
+#tiktok {
+	background-image: url("images/tiktok.png");
+	background-size: 50px auto;
+	flex-grow: 0;
+}
